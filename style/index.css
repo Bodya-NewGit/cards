@@ -63,3 +63,36 @@ h5 {
     margin-top: 6px;
 }
 
+.wrapper-social{
+    display: flex;
+    justify-content: center;
+
+
+}
+.social-icon{
+    background: #F5F5F5;
+    margin: 29px 3px 0;
+
+}
+
+.twitter{
+    padding: 1px 7px 1px 8px;
+}
+.in{
+padding: 0 7px 0 8px;
+}
+.mail{
+    padding: 1px 7px 1px 8px ;
+}
+.insta{
+    padding: 0 7px 0 8px;
+}
+.be{
+    padding: 0 7px 0 8px;
+}
+.ball{
+    padding: 0 7px 0 8px;
+}
+.facebook{
+    padding: 0 7px 0 8px;
+}
