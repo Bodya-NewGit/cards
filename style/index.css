@@ -1,23 +1,28 @@
 @import "common.css";
 
 h1 {
-    margin-top: 79px;
+    font-style: normal;
     font-weight: 400;
     font-size: 23px;
     line-height: 36px;
+    width: 129px;
+    height: 36px;
+    margin: 10.5px auto 0;
 
     text-align: center;
     text-transform: uppercase;
 
     color: #333333;
 }
+
 .border {
     margin: 28px auto 43px;
     height: 2px;
     width: 80px;
     background: rgba(0, 0, 0, 0.09);
 }
-.container{
+
+.container {
     max-width: 960px;
     text-align: center;
     display: flex;
@@ -25,21 +30,25 @@ h1 {
     margin: 0 auto;
 
 }
-.card{
-max-width: 240px;
-    /*padding: 0 10px;*/
+
+.card {
+    max-width: 240px;
+
 }
 
-.card-img{
-    padding: 0 10px;
+.card-img {
+    margin: 0 10px;
 }
+
 h3 {
+    font-style: normal;
+    font-weight: 400;
 
     text-align: center;
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
-    margin-top:20px ;
+    margin-top: 20px;
     color: #333333;
 }
 
@@ -50,7 +59,8 @@ h3 {
 
     text-align: center;
 }
-h5 {
+
+p {
     /*width: 200px;*/
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -61,38 +71,35 @@ h5 {
     text-align: center;
     color: #333333;
     margin-top: 6px;
+    font-style: normal;
+    font-weight: 400;
+
 }
 
-.wrapper-social{
+.wrapper-social {
     display: flex;
+    justify-content: center;
+
+    /*max-width: 220px;*/
+    margin-top: 18px;
+    padding: 11px 0 10px;
+    /*margin-bottom: 89px;*/
+
+
+}
+
+.social-icon {
+    background: #F5F5F5;
+    margin: 0 3px;
+    width: 29px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 
 
 }
-.social-icon{
-    background: #F5F5F5;
-    margin: 29px 3px 0;
 
-}
-
-.twitter{
-    padding: 1px 7px 1px 8px;
-}
-.in{
-padding: 0 7px 0 8px;
-}
-.mail{
-    padding: 1px 7px 1px 8px ;
-}
-.insta{
-    padding: 0 7px 0 8px;
-}
-.be{
-    padding: 0 7px 0 8px;
-}
-.ball{
-    padding: 0 7px 0 8px;
-}
-.facebook{
-    padding: 0 7px 0 8px;
+.social-icon-img {
+    width: 14px;
+    height: 14px;
 }
