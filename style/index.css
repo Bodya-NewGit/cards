@@ -119,14 +119,13 @@ header {
 .section-3 h1 {
     margin-top: 10px;
 }
-
-.wrapper-card {
-
+.wrapper-card{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+
 
 .graphic-cards {
     margin: 0 10px;
@@ -167,10 +166,19 @@ header {
     margin-top: 10px;
 }
 
+.wrapper-photo-card {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
 .photo-cards {
     max-width: 300px;
     margin: 0 10px 20px;
     background: #FFFFFF;
+    font-size: 0;
+
 }
 
 .photo-cards h3 {
@@ -178,7 +186,9 @@ header {
     font-size: 16px;
 }
 
+
 .photo-cards p {
+    font-size: 14px;
     margin-top: 4px;
     /*margin-bottom: 21px;*/
 
@@ -187,6 +197,7 @@ header {
 .text-photo {
     padding-top: 19px;
     padding-bottom: 21px;
+
 
 }
 
@@ -218,9 +229,10 @@ header {
 }
 
 
-.card {
+.card{
     max-width: 240px;
     margin: 0 10px;
+
 }
 
 
