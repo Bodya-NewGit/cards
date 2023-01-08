@@ -26,6 +26,11 @@ header {
     height: 70px;
 }
 
+.logo-img:hover{
+    box-shadow: 2px 2px 10px #65687e;
+    transition: 0.4s;
+}
+
 .nav-links a {
     padding: 4px 17px;
     text-transform: uppercase;
@@ -34,6 +39,11 @@ header {
     font-style: normal;
     font-weight: 400;
 
+}
+
+.nav-links a:hover{
+    box-shadow: 2px 2px 3px #36031d;
+    text-replace: 0.5s;
 }
 
 /*section-1*/
@@ -111,7 +121,12 @@ header {
 
 }
 
-/*секция номер3*/
+.button:hover{
+    box-shadow: 2px 2px 10px #e78639;
+    transition: 0.5s;
+}
+
+    /*секция номер3*/
 .section-3 {
     padding: 69px 0;
 }
@@ -130,6 +145,12 @@ header {
 .graphic-cards {
     margin: 0 10px;
 
+
+}
+
+.graphic-cards:hover{
+    box-shadow: 4px 4px 10px #65687e;
+    text-replace: 0.5s;
 }
 
 .graphicWrapper {
@@ -173,11 +194,18 @@ header {
     margin: 0 -10px;
 }
 
-.photo-cards {
+.photo-cards{
     max-width: 300px;
     margin: 0 10px 20px;
     background: #FFFFFF;
     font-size: 0;
+
+
+}
+
+.photo-cards:hover{
+    box-shadow: 0px 0px 25px #041949;
+    transition: 0.5s;
 
 }
 
@@ -234,6 +262,10 @@ header {
     margin: 0 10px;
 
 }
+.card:hover{
+    box-shadow: 0px 0px 20px #36031d;
+    transition: 0.5s;
+}
 
 
 .card h3 {
@@ -269,6 +301,10 @@ header {
     /*margin-bottom: 89px;*/
 
 
+}
+.social-icon:hover{
+    box-shadow:2px 2px 5px #d700ff;
+    transition: 0.5s;
 }
 
 .social-icon {
