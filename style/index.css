@@ -322,3 +322,39 @@ header {
     width: 14px;
     height: 14px;
 }
+
+/*секция 6*/
+.section-6{
+    padding: 69px 0;
+    background: #F5F5F5;
+}
+.wrapper-section-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part-of-section{
+    max-width: 446px;
+    margin-top: 65px;
+}
+.part-of-section p{
+    padding: 0 54px 24px;
+    font-size: 26px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: #333333;
+}
+
+.border-2 {
+    margin: 65px auto 0;
+    height: 215px;
+    background: rgba(0, 0, 0, 0.04);
+    width: 2px;
+}
+.part-of-section h3{
+    font-size: 14px;
+    color: #ABABAB;
+    margin-top: 10px;
+}
