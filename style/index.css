@@ -361,12 +361,6 @@ header {
 
 /*секция 7*/
 
-/*.container-1{*/
-/*    max-width: 960px;*/
-/*    margin: 0 auto;*/
-/*    text-align: center;*/
-/*}*/
-
 .section-7 h1{
     padding-top: 79px;
 }
@@ -380,39 +374,54 @@ header {
 
 
 .section-7-card{
-    /*width: 320px;*/
-    /*text-align: center;*/
+
     width: 100%;
     max-width: 313px;
     text-align: center;
+    padding-bottom: 69px;
+    padding-top: 20px;
 
+}
+.first-class{
+    /*margin-top: -27px;*/
 }
 .section-7-card h3{
     margin-top: 26px;
+    margin-bottom: 21px;
 }
 
 .wrapper-section-7{
     display: flex;
     align-items: baseline;
     justify-content: center;
+    /*align-items: stretch;*/
 }
 
-.description-block{
-    margin-top: 21px;
-    display: flex;
-    flex-direction: column;
 
-}
 .wrapper-social-icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    /*justify-content:flex-end;*/
+    text-align: left;
+    margin-left: 34%;
 }
+
 .mini-social-block{
     margin-bottom: 11px;
+
+}
+span{
+    font-size: 17px;
+    line-height: 20px;
 }
 .img-icon{
     margin-right: 9px;
+}
+
+
+/*footer*/
+footer{
+    padding:69px 0 ;
+    background: #000000;
+
+}
+.wrapper-form{
+    display: flex;
 }
