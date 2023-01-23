@@ -260,7 +260,7 @@
         <h1>LET’s Get in touch</h1>
         <div class="border"></div>
         <div class="wrapper-section-7">
-            <div class="section-7-card" class="first-class">
+            <div class="section-7-card">
                 <img src="./images/gps-img.svg" alt="gps-img">
                 <h3>MEET US IN PERSON</h3>
                     <p>
@@ -305,13 +305,19 @@
 <footer>
     <div class="container">
         <div class="wrapper-form">
-
-            <input type="text" name="login" > <br><br>
-
-            <input type="text" name="login" > <br>
-
-            <input type="text" name="login" > <br>
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Name" class="input-style child">
+            <label for="mail"></label>
+            <input type="email" name="email" id="mail" placeholder="Email" class="input-style child">
+            <label for="budget"></label>
+            <input type="text" name="budget" id="budget" placeholder="Budget" class="input-style child">
+            <label for="textarea"></label>
+            <textarea name="" id="textarea" cols="30" rows="10" placeholder="Describe youre project..."class="textarea-style child"></textarea>
+            <label for="submit"></label>
+            <input type="submit" id="submit" value="Send Message" class="submit-button" >
         </div>
+        <img src="./images/form-logo.svg" alt="form-logo" class="form-img">
+        <p class="footer-text">Minimal Template made in Webflow. All rights reserved.</p>
     </div>
 </footer>
 </main>
