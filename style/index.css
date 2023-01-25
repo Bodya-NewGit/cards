@@ -296,11 +296,9 @@ header {
 .wrapper-social {
     display: flex;
     justify-content: center;
-
-    /*max-width: 220px;*/
     margin-top: 18px;
     padding: 11px 0 10px;
-    /*margin-bottom: 89px;*/
+
 
 
 }
@@ -390,11 +388,6 @@ header {
     padding-top: 20px;
 
 }
-
-.first-class {
-    /*margin-top: -27px;*/
-}
-
 .section-7-card h3 {
     margin-top: 26px;
     margin-bottom: 21px;
@@ -441,12 +434,21 @@ footer {
     margin: 0 auto;
 }
 
+
 .input-style {
     padding-top: 17px;
     padding-left: 31px;
     width: 100%;
     height: 57px;
     background: rgba(255, 255, 255, 0.18);
+
+    color: #FFFFFF;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
 }
 
 input::placeholder {
@@ -465,6 +467,14 @@ input::placeholder {
     height: 127px;
     background: rgba(255, 255, 255, 0.18);
     resize: none;
+
+    color: #FFFFFF;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
 }
 
 textarea::placeholder {
@@ -476,10 +486,9 @@ textarea::placeholder {
     line-height: 22px;
 }
 
-input:nth-child(odd) {
-    background: rgba(255, 255, 255, 0.18);
+.wrapper-form input:nth-of-type(odd) {
+    background: rgba(213, 213, 213, 0.18);
 }
-
 .submit-button {
     margin-top: 22px;
     padding: 15px 60px 16px;
