@@ -1,4 +1,19 @@
 @import "common.css";
+
+@media (min-width:1024px){
+  body{
+      background: #03acea;
+  }
+   .d-flex {
+       flex-direction: column;
+   }
+    .section-1 h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-top: 40px;
+    }
+}
+
 /*контейнер для хедера*/
 .container {
     max-width: 940px;
@@ -200,12 +215,10 @@ header {
     margin: 0 10px 20px;
     background: #FFFFFF;
     font-size: 0;
-
-
 }
 
 .photo-cards:hover {
-    box-shadow: 0px 0px 25px #041949;
+    box-shadow: 0 0 25px #041949;
     transition: 0.5s;
 
 }
@@ -265,7 +278,7 @@ header {
 }
 
 .card:hover {
-    box-shadow: 0px 0px 20px #36031d;
+    box-shadow: 0 0 20px #36031d;
     transition: 0.5s;
 }
 
@@ -375,7 +388,6 @@ header {
     display: block;
     z-index: -1;
     width: 100%;
-
 }
 
 
