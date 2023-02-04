@@ -767,6 +767,7 @@ span {
         display: block;
         z-index: -1;
         width: 100%;
+        height: 100%;
     }
 
     .section-7-card {
