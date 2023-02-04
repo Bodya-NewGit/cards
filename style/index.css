@@ -172,6 +172,7 @@ header {
     z-index: -1;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .section-1 {
@@ -317,7 +318,8 @@ header {
 }
 
 .graphicWrapper {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 219px;
     margin: 0 auto;
     background: #F5F5F5;
@@ -407,6 +409,7 @@ header {
 
 .photo-cards {
     max-width: 300px;
+    width: 100%;
     background: #FFFFFF;
     margin: 0 auto 20px;
 }
@@ -708,7 +711,7 @@ header {
     display: block;
     z-index: -1;
     width: 100%;
-    height: 100%;
+    height: 180%;
 }
 
 .wrapper-section-7 {
@@ -828,8 +831,9 @@ footer {
 }
 
 .wrapper-form {
-    width: 564px;
+    max-width: 564px;
     height: 398px;
+    width: 80%;
     margin: 0 auto;
 }
 
