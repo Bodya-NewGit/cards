@@ -1,5 +1,9 @@
 @import "common.css";
 
+body {
+    padding-top: 110px;
+}
+
 .container {
     max-width: 940px;
     margin: 0 auto;
@@ -14,12 +18,15 @@
 header .d-flex {
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 18px;
 }
 
 header {
-    /*padding: 18px 0;*/
+    position: fixed;
     background: white;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }
 
 .logo-img {
@@ -55,7 +62,7 @@ header {
     background-color: #f46b45;
     position: relative;
     z-index: 2;
-
+    height: 100%;
 }
 
 
@@ -146,7 +153,6 @@ header {
         display: flex;
         justify-content: center;
         margin: 0;
-        /*padding: 0.5em 0;*/
         width: 100%;
         color: #404040;
 
@@ -208,6 +214,13 @@ header {
 }
 
 @media (min-width: 1024px) {
+    /*.bg-img {*/
+    /*    position: absolute;*/
+    /*    display: block;*/
+    /*    z-index: -1;*/
+    /*    !*width: 100%;*!*/
+    /*    !*height: 100%;*!*/
+    /*}*/
     .section-1 {
         text-align: center;
         position: relative;
@@ -487,11 +500,13 @@ header {
     box-shadow: 0 0 20px #36031d;
     transition: 0.5s;
 }
+
 .card h3 {
     font-size: 0.8rem;
     line-height: 1rem;
     margin-top: 20px;
 }
+
 .team-p {
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -505,7 +520,40 @@ header {
     font-style: normal;
     font-weight: 400;
 }
+
+.wrapper-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    padding: 11px 0 10px;
+}
+
+.social-icon:hover {
+    box-shadow: 2px 2px 5px #d700ff;
+    transition: 0.5s;
+}
+
+.social-icon {
+    background: #F5F5F5;
+    margin: 0 3px;
+    width: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon-img {
+    width: 14px;
+    height: 14px;
+}
+
 @media (min-width: 1024px) {
+    .team .container {
+        max-width: 940px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
     .team h1 {
         width: 129px;
         height: 36px;
@@ -516,6 +564,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0 -10px;
     }
 
 
@@ -545,32 +594,7 @@ header {
         font-style: normal;
         font-weight: 400;
     }
-    /*остановился здесь*/
-    .wrapper-social {
-        display: flex;
-        justify-content: center;
-        margin-top: 18px;
-        padding: 11px 0 10px;
-    }
 
-    .social-icon:hover {
-        box-shadow: 2px 2px 5px #d700ff;
-        transition: 0.5s;
-    }
-
-    .social-icon {
-        background: #F5F5F5;
-        margin: 0 3px;
-        width: 29px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .social-icon-img {
-        width: 14px;
-        height: 14px;
-    }
 }
 
 /*секция 6*/
@@ -583,40 +607,100 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-6 .container {
+    max-width: 340px;
 }
 
 .part-of-section {
-    max-width: 446px;
     margin-top: 65px;
 }
 
 .part-of-section p {
     padding: 0 54px 24px;
-    font-size: 26px;
-    line-height: 33px;
-
+    font-size: 1rem;
+    line-height: 1.2rem;
     text-align: center;
-
     color: #333333;
 }
 
 .border-2 {
     margin: 65px auto 0;
-    height: 215px;
+    height: 2px;
     background: rgba(0, 0, 0, 0.04);
-    width: 2px;
+    width: 215px;
 }
 
 .part-of-section h3 {
-    font-size: 14px;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
     color: #ABABAB;
     margin-top: 10px;
 }
 
-/*секция 7*/
+.part-of-section img {
+    width: 35%;
+    height: 35%;
+}
 
+@media (min-width: 1024px) {
+    .section-6 .container {
+        max-width: 940px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .wrapper-section-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part-of-section {
+        max-width: 446px;
+        margin-top: 65px;
+    }
+
+    .part-of-section img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .part-of-section p {
+        padding: 0 54px 24px;
+        font-size: 26px;
+        line-height: 33px;
+
+        text-align: center;
+
+        color: #333333;
+    }
+
+    .border-2 {
+        margin: 65px auto 0;
+        height: 215px;
+        background: rgba(0, 0, 0, 0.04);
+        width: 2px;
+    }
+
+    .part-of-section h3 {
+        font-size: 14px;
+        color: #ABABAB;
+        margin-top: 10px;
+    }
+}
+
+/*секция 7*/
 .section-7 h1 {
-    padding-top: 79px;
+    padding-top: 60px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.section-7 .container {
+    max-width: 315px;
 }
 
 .bg-img-2 {
@@ -624,40 +708,39 @@ header {
     display: block;
     z-index: -1;
     width: 100%;
+    height: 100%;
 }
 
+.wrapper-section-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+}
 
 .section-7-card {
-
     width: 100%;
     max-width: 313px;
     text-align: center;
     padding-bottom: 69px;
     padding-top: 20px;
+}
 
+.section-7-card-img {
+    width: 25%;
+    height: 25%;
 }
 
 .section-7-card h3 {
     margin-top: 26px;
     margin-bottom: 21px;
-}
-
-.wrapper-section-7 {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    /*align-items: stretch;*/
-}
-
-
-.wrapper-social-icon {
-    text-align: left;
-    margin-left: 34%;
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 
 .mini-social-block {
     margin-bottom: 11px;
-
 }
 
 span {
@@ -669,6 +752,73 @@ span {
     margin-right: 9px;
 }
 
+@media (min-width: 1024px) {
+    .section-7 .container {
+        max-width: 940px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .bg-img-2 {
+        position: absolute;
+        display: block;
+        z-index: -1;
+        width: 100%;
+    }
+
+    .section-7-card {
+        width: 100%;
+        max-width: 313px;
+        text-align: center;
+        padding-bottom: 69px;
+        padding-top: 20px;
+    }
+
+    .section-7-card h3 {
+        margin-top: 26px;
+        margin-bottom: 21px;
+    }
+
+    .wrapper-section-7 {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+
+    }
+
+    .sec7-img1 {
+        width: 44px;
+        height: 65px;
+    }
+
+    .sec7-img2 {
+        width: 70px;
+        height: 50px;
+    }
+
+    .sec7-img3 {
+        width: 68px;
+        height: 56px;
+    }
+
+    .wrapper-social-icon {
+        text-align: left;
+        margin-left: 34%;
+    }
+
+    .mini-social-block {
+        margin-bottom: 11px;
+    }
+
+    span {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .img-icon {
+        margin-right: 9px;
+    }
+}
 
 /*footer*/
 footer {
@@ -755,9 +905,27 @@ textarea::placeholder {
 
 .form-img {
     margin: 37px auto 14px;
+    width: 6%;
+    height: 6%;
 }
 
 .footer-text {
     text-align: center;
     color: rgba(255, 255, 255, 0.4);
+    font-size: 0.6rem;
+    line-height: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .form-img {
+        margin: 37px auto 14px;
+        width: 43px;
+        height: 46px;
+    }
+
+    .footer-text {
+        text-align: center;
+        font-size: 15px;
+        line-height: 22px;
+    }
 }
